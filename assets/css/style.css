@@ -28,6 +28,7 @@ h1 {
 nav {
     float: right;
     line-height: 40px;
+    color: #777777;
 }
 
 nav a {
@@ -40,23 +41,60 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-.container {
+.container1 {
     background-color: #ffffff;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    border: 2px solid #dddddd;
 }
 
+.container2 {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: 2px solid #dddddd;
+    padding: 20px;
+}
+
+.about {
+    font-size: 25px;
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    padding: 15px;
+}
+ 
 .body {
     padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 25px;
+    color: #777777;
 }
 
 img {
     float: left;
+    margin: 10px;
+}
+
+.form {
+    color: #777777;
+    margin-top: 25px;
+}
+
+.submit {
+    margin-top: 25px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer {
-    border-top: 5px solid #4aaaa5;
+    margin-top: 25px;
+    border-top: 8px solid #4aaaa5;
     background-color: gray;
     text-align: center;
     padding: 10px;
